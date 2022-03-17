@@ -1,0 +1,28 @@
+.button-wrapper {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+}
+
+.button1 {
+	position: absolute;
+	height: 6%;
+	width: 30%;
+	background-color: green;
+	border-radius: 10px;
+	border: solid white;
+	font-size: 1.5em;
+	font-family: 'ZCOOL QingKe HuangYou';
+}
+
+.button2 {
+	height: 3%;
+	width: 30%;
+	background-color: lightseagreen;
+	border-radius: 10px;
+	border: none;
+	filter: blur(31px);
+}
