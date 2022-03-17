@@ -4,3 +4,11 @@
 	background-color: black;
 	color: white;
 }
+
+.App-header {
+	display: flex;
+	padding: 20px 0px 0px 20px;
+	font-family: 'ZCOOL QingKe HuangYou';
+	font-size: 2em;
+	position: absolute;
+}
