@@ -1,0 +1,13 @@
+$mobile: 320px;
+
+.home {
+	height: 100%;
+	background-image: url('./assets/cat.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+@media only screen and (max-width: $mobile) {
+	.home {
+	}
+}

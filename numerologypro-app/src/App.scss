@@ -1,0 +1,36 @@
+$mobile: 320px;
+
+.app {
+	text-align: center;
+	height: 100%;
+	background-color: black;
+	color: white;
+	&-header {
+		position: absolute;
+		&-title {
+		}
+	}
+}
+
+@media only screen and (max-width: $mobile) {
+	.app {
+		&-header {
+			&-title {
+				font-size: 0.625rem;
+				margin-left: 8px;
+				margin-top: 8px;
+			}
+		}
+	}
+}
+
+// @media only screen and (max-width: $mobile) {
+// 	.app {
+// 		&-header {
+// 			position: absolute;
+// 			&-title {
+// 				font-size: 0.625rem;
+// 			}
+// 		}
+// 	}
+// }

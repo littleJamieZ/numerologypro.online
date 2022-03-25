@@ -1,12 +1,7 @@
-import './Home.css';
-import Button from './Button';
+import './Home.scss';
 
 const Home = () => {
-	return (
-		<div className="home">
-			<Button />
-		</div>
-	);
+	return <div className="home"></div>;
 };
 
 export default Home;
